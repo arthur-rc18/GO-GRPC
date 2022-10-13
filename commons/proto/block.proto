@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "/pb;block";
+
+message RequestID {
+  string id = 1;
+}
+
+message ResponseBlock {
+  string blockJson = 1;
+}
+
+service Blocks {
+  rpc GetBlockById(RequestID) returns (ResponseBlock){}
+}
