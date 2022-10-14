@@ -24,7 +24,7 @@ To execute the program, both client and service has to be running.
 
 ## Execution flow
 
-When an Id is passed through the URL, is the service who receives and searchs for it in the database, in case of an existent blockId (C19), the response will be:
+When an Id is passed through the URL, is the service who receives and searchs for it in the database, in case of an existent blockId (Z0164), the response will be:
 
 ``` JSON
 {
